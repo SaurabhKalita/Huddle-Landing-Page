@@ -1,0 +1,79 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  width: 75%;
+}
+
+.btn-register {
+  border-radius: 30px;
+  width: 227px;
+  margin-top: 6%;
+}
+
+.logo {
+  padding: 3% 0 3% 4%;
+  width: 17%;
+}
+
+.mockups {
+  padding-left: 8%;
+  padding-top: 3.7%;
+  width: 90%;
+}
+
+.heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.paragraph {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.body {
+  padding: 5% 17% 0 4%;
+}
+
+.icons {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  margin-right: 6%;
+  margin-top: 2%;
+  padding-left: 12%;
+}
+
+.btn-icons {
+  border-radius: 100%;
+  margin-right: 6%;
+}
+
+@media (max-width: 984px) {
+  body {
+    background-image: url("images/bg-mobile.svg");
+  }
+
+  .logo {
+    width: 170px;
+    margin-left: 5%;
+  }
+
+  .body {
+    text-align: center;
+    padding: 14% 14% 8% 14%;
+  }
+
+  .icons {
+    position: static;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 12%;
+  }
+}
